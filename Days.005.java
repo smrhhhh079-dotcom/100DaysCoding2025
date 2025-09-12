@@ -5,7 +5,7 @@ public class Main {
         byte a = 10;
         short b = 200;
         int c = 5000;
-        long d = 100000L;
+        long d = 100000;
 
         System.out.println("Byte : " + a);
         System.out.println("Short: " + b);
@@ -18,7 +18,7 @@ public class Main {
 
         //int c = 5000; → tipe data int (32 bit), nilai bisa sangat besar, biasanya dipakai default untuk bilangan bulat.
 
-        //long d = 100000L; → tipe data long (64 bit), bisa menyimpan angka yang jauh lebih besar. Perlu ditulis dengan huruf L di akhir supaya dikenali sebagai long.
+        //long d = 100000; → tipe data long (64 bit), bisa menyimpan angka yang jauh lebih besar.
 
     }
 }
