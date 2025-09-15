@@ -1,4 +1,4 @@
-package Day7.java;
+package Day8.java;
 
 public class Main {
     
