@@ -2,7 +2,7 @@ package file3;
 
 import java.util.Scanner;
 
-public class java{
+public class main{
      public static void main (String[] args)
 
   //Soal 1
