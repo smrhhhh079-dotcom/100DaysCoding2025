@@ -1,7 +1,9 @@
 package Day13;
+
 import java.util.Scanner;
+
 public class java{
-    public static void main (String[] args)
+     public static void main (String[] args)
 
   //Soal 1
      //File 1 
@@ -120,8 +122,7 @@ public class java{
         System.out.print("Kelas        : " + kelas   + "\n");
         System.out.print("Alamat       : " + alamat  + "\n");
         
-        
-        
+          
         
     }
     
