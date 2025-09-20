@@ -1,9 +1,7 @@
-package file3;
-
+package Evaluasi;
 import java.util.Scanner;
-
-public class main{
-     public static void main (String[] args)
+public class Berhasil {
+    public static void main(String[] args){
 
   //Soal 1
      //File 1 
