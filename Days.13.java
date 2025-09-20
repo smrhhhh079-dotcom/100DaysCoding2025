@@ -1,6 +1,6 @@
 package Evaluasi;
 import java.util.Scanner;
-public class Berhasil {
+public class Main{
     public static void main(String[] args){
 
   //Soal 1
