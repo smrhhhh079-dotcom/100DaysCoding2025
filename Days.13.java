@@ -2,7 +2,7 @@ package Day13;
 
 import java.util.Scanner;
 
-public class Main{
+public class java{
      public static void main (String[] args)
 
   //Soal 1
