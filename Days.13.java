@@ -7,7 +7,7 @@ public class Main{
 
   //Soal 1
      //File 1 
-      package evaluasi Day13;
+     //package evaluasi Day13;
 
      //File 2
      //public class main {}
