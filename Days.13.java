@@ -1,4 +1,4 @@
-package Day13;
+package file3;
 
 import java.util.Scanner;
 
@@ -7,7 +7,7 @@ public class java{
 
   //Soal 1
      //File 1 
-     //package evaluasi Day13;
+     //package evaluasiday13;
 
      //File 2
      //public class main {}
