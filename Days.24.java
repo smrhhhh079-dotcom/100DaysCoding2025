@@ -12,7 +12,6 @@ public class Main {
         double luas = Math.PI * r * r;
 
         //Output
-        System.out.printf("Luas lingkaran dengan jari-jari :" + luas);
-        
+        System.out.printf("Luas lingkaran dengan jari-jari %.2f adalah : %.2f" ,r ,Luas);
     }
 }
