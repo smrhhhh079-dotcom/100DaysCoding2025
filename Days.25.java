@@ -5,7 +5,6 @@ public class Main {
       // Increment (++) dan Decrement (--) 
         int a = 2;
         int b = 3;
-        //Post increment a
         System.out.println("post increment : a++ " + a);
         System.out.println("pre increment  : ++a " + a);
         System.out.println("post decrement : b-- " + b);
