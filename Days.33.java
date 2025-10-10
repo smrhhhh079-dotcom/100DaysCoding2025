@@ -6,7 +6,7 @@ public class Main {
         Scanner input = new Scanner(System.in);
 
         System.out.print("Masukkan nilai kamu: ");
-        double nilai = input.nextDouble();
+        float nilai = input.nextFloat();
         
         boolean tidaklulus = !(nilai >=75);
         
