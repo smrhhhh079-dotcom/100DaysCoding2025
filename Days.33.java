@@ -3,15 +3,14 @@ import java.util.Scanner;
 public class Main {
     
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
-        System.out.print("Masukkan nilai kamu: ");
-        float nilai = input.nextFloat();
-        
-        boolean tidaklulus = !(nilai >=75);
-        
-        System.out.println("Apakah saya tidak lulus? " + tidaklulus);
+        System.out.print("Masukkan umur: ");
+        int umur = sc.nextInt();
 
-    
+        boolean bukanDewasa = !(umur >= 18);
+
+        System.out.println("Apakah saya belum dewasa? " + bukanDewasa);
+        
     }
-}   
+}
