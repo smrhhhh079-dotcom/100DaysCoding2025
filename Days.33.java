@@ -8,7 +8,7 @@ public class Main {
         System.out.print("Masukkan umur: ");
         int umur = sc.nextInt();
 
-        boolean bukanDewasa = !(umur >= 18);
+        boolean bukanDewasa = !(umur >= 19);
 
         System.out.println("Apakah saya belum dewasa? " + bukanDewasa);
         
