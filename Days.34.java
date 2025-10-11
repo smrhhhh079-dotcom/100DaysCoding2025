@@ -15,7 +15,7 @@ public class Main {
         int c = sc.nextInt();
         
         a = a + (b*c);
-        boolean kondisi = (a % 2 == 0 && (a/b > c ))|| (a - b <= 10);
+        boolean kondisi = (a % 2 == 0 && a/b > c || (a - b <= 10);
         
         System.out.println("Nilai akhir a " + a);
         System.out.println("Hasil logika " + kondisi);
