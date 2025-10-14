@@ -22,10 +22,10 @@ public class Main {
         }
 
         if (Angka % 2 == 0) {
-            System.out.print("dan Genap\n");
+            System.out.print("dan Genap");
         } 
         else {
-            System.out.print("dan Ganjil\n");
+            System.out.print("dan Ganjil");
         }
     }
 }
