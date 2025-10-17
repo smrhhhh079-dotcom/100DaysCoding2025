@@ -28,7 +28,6 @@ public class Main {
             hasil = angka1 % angka2;
         } else {
             System.out.println("Operator tidak valid!");
-            return;
         }
 
         System.out.println("Hasil dari " + angka1 + " " + operator + " " + angka2 + " adalah " + hasil);
