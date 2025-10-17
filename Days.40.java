@@ -24,6 +24,8 @@ public class Main {
             hasil = angka1 + angka2;
         } else if (operator == '/') {
             hasil = angka1 / angka2;
+        }else if  (operator == '%') {
+            hasil = angka1 % angka2;
         } else {
             System.out.println("Operator tidak valid!");
             return;
