@@ -8,7 +8,7 @@ public class Main {
         System.out.print("Masukkan angka 1: ");
         double angka1 = sc.nextDouble();
 
-        System.out.print("Masukkan operator (+ - * /): ");
+        System.out.print("Masukkan operator (+ - * / %): ");
         char operator = sc.next().charAt(0);
 
         System.out.print("Masukkan angka 2: ");
