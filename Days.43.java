@@ -7,9 +7,11 @@ public class Main {
         
         System.out.print("Masukkan Angka : ");
         int angka = input.nextInt();
-
+        
         if (angka < 0) {
             System.out.println("Tidak boleh memasukkan angka negatif");
+        } else if (angka == 0) {
+            System.out.println("Tidak boleh memasukkan angka negatif atau nol");
         } else {
             String digit = "";
             String jenis = "";
@@ -21,6 +23,8 @@ public class Main {
                 digit = "angka puluhan";
             } else if (angka < 1000) {
                 digit = "angka ratusan";
+            } else {
+                digit = "angka lebih dari ratusan";
             }
             
             if (angka % 2 == 0) {
@@ -42,4 +46,4 @@ public class Main {
             System.out.println(angka + " adalah " + digit + " " + jenis + " " + bagi);
         }
     }
-                       }
+}
