@@ -13,7 +13,7 @@ public class Main {
         int pilihan = sc.nextInt();
 
         switch (pilihan) {
-            case 1000:
+            case 10000:
                 System.out.println("Anda memilih Kopi. Harga: Rp10.000");
                 break;
             case 7000:
