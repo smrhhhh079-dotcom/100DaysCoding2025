@@ -43,7 +43,7 @@ public class Main {
                 System.out.println("Hari Libur");
                 break;
             default:
-                System.out.println("Angka tidak valid! Masukkan angka 1 sampai 7.");
+                System.out.println("Angka tidak valid! Masukkan angka 1 sampai 7");
         }
         
     }
