@@ -10,12 +10,16 @@ public class Main {
 
         int faktorial = 1;
 
+        System.out.print("Proses: ");
         for (int i = 1; i <= n; i++) {
             faktorial = faktorial * i;
+            System.out.print(i);
+            if (i < n) {
+                System.out.print(" x ");
+            }
         }
 
-        System.out.println("Faktorial dari " + n + " adalah: " + faktorial);
+        System.out.println();
+        System.out.println("/nHasil faktorial dari " + n + " adalah: " + faktorial);
     }
 }
-    
-    
