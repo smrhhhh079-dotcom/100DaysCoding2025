@@ -9,7 +9,7 @@ public class Main {
         int n = input.nextInt(); 
         
         for (int i = 1; i <= n; i++) {
-            System.out.println("*");
+            System.out.println("|");
         }
     }
 }
