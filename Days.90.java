@@ -1,12 +1,13 @@
 package Day90;
 
 public class Main {
-    public static int tambah(int a, int b) {
-        return a + b;
+    public static void main(String[] args) {
+        int hasil = jumlah(5, 3); 
+        System.out.println("Hasil penjumlahan: " + hasil);
     }
 
-    public static void main(String[] args) {
-        int hasil = tambah(5, 3);
-        System.out.println("Hasil: " + hasil); // Output: Hasil: 8
+    public static int jumlah(int a, int b) {
+        int total = a + b;
+        return total;
     }
 }
